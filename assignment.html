@@ -373,8 +373,7 @@
                                                 <span class="fa fa-align-left green" aria-hidden="true"></span>
                                             </button>
                                             Lorem ipsum dolor sit amet ipsum dolor sit amet
-                                            <span class="label label-warning">Just now</span>
-                                        </li>
+                                            <span class="label label-warning"><a href="javascript:void(0)" data-placement="right" data-toggle="tooltip" title="Tool tip on right">Just Now</a></span>  </li>
 
                                         <hr>
 
@@ -383,7 +382,7 @@
                                                 <span class="fa fa-info-circle red" aria-hidden="true"></span>
                                             </button>
                                             Lorem ipsum dolor sit amet ipsum dolor sit amet
-                                            <span class="label label-info">2 mi chat</span>
+                                            <span class="label label-info"><a href="javascript:void(0)" data-placement="right" data-toggle="tooltip" title="Tool tip on right">2 mi chat</a></span>
                                         </li>
 
                                         <hr>
@@ -392,7 +391,7 @@
                                                 <span class="fa fa-comments brown" aria-hidden="true"></span>
                                             </button>
                                             Lorem ipsum dolor sit amet ipsum dolor sit amet
-                                            <span class="label label-success">Go!</span>
+                                            <span class="label label-success"><a href="javascript:void(0)" data-placement="left" data-toggle="tooltip" title="Tool tip on left">Go!</a></span>
                                         </li>
                                         <hr>
                                         <li class="list-group-item">
@@ -400,7 +399,7 @@
                                                 <span class="fa fa-edit red" aria-hidden="true"></span>
                                             </button>
                                             Lorem ipsum dolor sit amet ipsum dolor sit amet
-                                            <span class="label label-success">Let's Have It</span>
+                                            <span class="label label-success"><a href="javascript:void(0)" data-placement="bottom" data-toggle="tooltip" title="Tool tip on bottom">Let's Have It</a></span>
                                         </li>
                                         <hr>
                                     </ul>
@@ -410,72 +409,85 @@
                             </div>
 
                             <div class="item">
-                                <div id="accordion" role="tablist" aria-multiselectable="true">
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading" role="tab" id="headingOne">
+                                <div class="panel-group" id="myaccordion" >
+                                    <div class="panel panel-default accordProfile">
+                                        <div class="panel-heading" >
                                             <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                    Collapsible Group Item #1
-                                                </a>
+                                                Collapsible Group 1
                                             </h4>
+                                            <div class="pull-right text-center" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                                <span class="glyphicon glyphicon-minus"></span>
+                                            </div>
                                         </div>
-                                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                                            Anim pariatur cliche reprehenderit. Food  aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+                                        <div id="collapse1" class="panel-collapse collapse in">
+                                            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                                commodo consequat.
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading" role="tab" id="headingTwo">
+                                    <div class="panel panel-default accordProfile">
+                                        <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse2" >
                                             <h4 class="panel-title">
-                                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                    Collapsible Group Item #2
-                                                </a>
+                                                Collapsible Group 2
                                             </h4>
+                                            <div class="pull-right text-center">
+                                                <span class="glyphicon glyphicon-plus"></span>
+                                            </div>
                                         </div>
-                                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                        , craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butch you probably haven't heard of them accusamus labore sustainable VHS.
+                                        <div id="collapse2" class="panel-collapse collapse">
+                                            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                                commodo consequat.
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading" role="tab" id="headingThree">
+                                    <div class="panel panel-default accordProfile">
+                                        <div class="panel-heading"  data-toggle="collapse" data-parent="#accordion" href="#collapse3">
                                             <h4 class="panel-title">
-                                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                    Collapsible Group Item #3
-                                                </a>
+                                                Collapsible Group 3
                                             </h4>
+                                            <div class="pull-right text-center">
+                                                <span class="glyphicon glyphicon-plus"></span>
+                                            </div>
                                         </div>
-                                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                                        <div id="collapse3" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                                commodo consequat.
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                                </div>
 
                             <div class="item">
-                                <div class="container">
-                                    <ul class="nav nav-tabs">
-                                        <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-                                        <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
-                                        <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
-                                        <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
-                                    </ul>
-
-                                    <div class="tab-content">
-                                        <div id="home" class="tab-pane fade in active">
-                                            <h3>HOME</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                        </div>
-                                        <div id="menu1" class="tab-pane fade">
-                                            <h3>Menu 1</h3>
-                                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                        </div>
-                                        <div id="menu2" class="tab-pane fade">
-                                            <h3>Menu 2</h3>
-                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-                                        </div>
-                                        <div id="menu3" class="tab-pane fade">
-                                            <h3>Menu 3</h3>
-                                            <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                                        </div>
+                                <ul class="nav nav-tabs">
+                                    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+                                    <li><a data-toggle="tab" href="#tab1">Tab 1</a></li>
+                                    <li><a data-toggle="tab" href="#tab2">Tab 2</a></li>
+                                    <li><a data-toggle="tab" href="#tab3">Tab 3</a></li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div id="home" class="tab-pane fade in active">
+                                        <h3>HOME</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                    <div id="tab1" class="tab-pane fade">
+                                        <h3>Menu 1</h3>
+                                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    </div>
+                                    <div id="tab2" class="tab-pane fade">
+                                        <h3>Menu 2</h3>
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                                    </div>
+                                    <div id="tab3" class="tab-pane fade">
+                                        <h3>Menu 3</h3>
+                                        <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                                     </div>
                                 </div>
                             </div>
@@ -503,6 +515,8 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="application/javascript" src="js/bootstrap.min.js">
+    </script>
+    <script type="application/javascript" src="js/main.js">
     </script>
 </footer>
 </body>

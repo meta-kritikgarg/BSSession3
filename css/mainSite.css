@@ -226,6 +226,17 @@
     background-color: #000000;
 }
 
+#myModal .modal-body .anp-body a{
+    text-decoration: none;
+    text-shadow: none;
+    color: white;
+}
+
+#myModal .modal-body .anp-body a:hover{
+    text-decoration: none;
+    color: white;
+}
+
 #myCarousel .carousel-control{
     width: 6%;
     color: #b1b1b1;
@@ -242,3 +253,14 @@
 
 }
 
+#myaccordion .panel-heading{
+    background-color: #009688;
+    color: #fdfefe;
+}
+
+#myaccordion  span{
+    position: relative;
+    top: -16px;
+    right: 0px;
+    color: #fdfefe;
+}
